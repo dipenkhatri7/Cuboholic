@@ -1,0 +1,75 @@
+nav {
+  padding-left: 5%;
+  padding-right: 2%;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  min-height: 8vh;
+  width: 100vw;
+  color: #f2faff;
+  z-index: 10;
+}
+a {
+  color: #f2faff;
+  text-decoration: none;
+}
+.nav-links {
+  display: flex;
+  width: 80%;
+  justify-content: space-around;
+  z-index: 10;
+}
+.nav-links li {
+  display: inline;
+  text-decoration: none;
+}
+.nav-links a {
+  text-decoration: none;
+}
+.hoverline {
+  cursor: pointer;
+}
+.hoverline::after {
+  content: "";
+  display: block;
+  width: 0%;
+  height: 2px;
+  background-color: #d8a421;
+  transition: width 0.5;
+}
+.hoverline:hover::after {
+  width: 100%;
+  transition: width 0.5s;
+}
+.burger {
+  visibility: hidden;
+}
+
+.logoo:hover {
+  cursor: pointer;
+}
+.loginsignup {
+  font-size: large;
+  background-color: #155ed1;
+  border: none;
+  color: white;
+  padding: 1vh 3vw;
+  margin-left: 5vw;
+}
+.loginsignup {
+  border: #23272b;
+  border-radius: 3px;
+}
+.loginsignup:hover {
+  cursor: pointer;
+}
+h1 {
+  font-weight: bold;
+}
+.burger div {
+  width: 25px;
+  height: 3px;
+  margin: 5px;
+  background-color: #f2faff;
+}
