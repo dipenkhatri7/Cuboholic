@@ -1,0 +1,13 @@
+.cubeSelector {
+  display: flex;
+  justify-content: flex-end;
+}
+.cubeIcon {
+  height: 84.5px;
+  margin-right: 218.5px;
+  margin-top: 44px;
+  z-index: 9;
+}
+.cubeIcon:hover {
+  cursor: pointer;
+}

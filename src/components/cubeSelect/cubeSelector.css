@@ -1,0 +1,15 @@
+.Cube2x2x2:hover,
+.Cube3x3x3:hover,
+.Cube4x4x4:hover,
+.Cube5x5x5:hover,
+.Cube6x6x6:hover,
+.Cube7x7x7:hover,
+.Blindfolded3x3x3:hover,
+.Blindfolded4x4x4:hover,
+.One-Handed3x3x3:hover,
+.Pyraminx:hover,
+.Megaminx:hover,
+.Square-1:hover,
+.cubeIcon {
+  cursor: pointer;
+}

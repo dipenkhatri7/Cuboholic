@@ -1,0 +1,43 @@
+.login {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #f2faff;
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+}
+.login h1 {
+  text-align: center;
+}
+.login input {
+  border: none;
+  background-color: #f2faff;
+  padding: 2vh 3vw;
+  display: block;
+  margin-bottom: 2vh;
+  width: 40vw;
+  border-radius: 3px;
+}
+.sumbit {
+  margin-top: 2vh;
+  width: 40vw;
+  padding: 2vh 3vw;
+  border: none;
+  font-weight: bold;
+  color: #23272b;
+  font-size: large;
+  background-color: #8cc0df;
+  border-radius: 3px;
+}
+.sumbit:hover {
+  cursor: pointer;
+}
+.login a {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.login p {
+  text-align: left;
+}
