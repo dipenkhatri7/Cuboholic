@@ -24,7 +24,6 @@ function App(){
       <Transition />
       <SignUp />
       <NewPassword /> */}
-
       
     </div>
 
