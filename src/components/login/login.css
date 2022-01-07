@@ -27,7 +27,7 @@
   border: none;
   font-weight: bold;
   color: #23272b;
-  font-size: large;
+  /* fontsize: large; */
   background-color: #8cc0df;
   border-radius: 3px;
 }

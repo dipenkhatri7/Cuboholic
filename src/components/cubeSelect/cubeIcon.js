@@ -1,9 +1,9 @@
 import './cubeIcon.css'
 function CubeSelect() {
     return (
-        <section class="cubeSelector">
+        <section className="cubeSelector">
     <svg  width="113.199" height="129.125"
-      viewBox="0 0 113.199 129.125" class="cubeIcon" id="cubeSelect">
+      viewBox="0 0 113.199 129.125" className="cubeIcon" id="cubeSelect">
       <defs>
         <filter id="Path_2" x="0" y="0" width="113.199" height="113.199" filterUnits="userSpaceOnUse">
           <feOffset dy="3" input="SourceAlpha" />
