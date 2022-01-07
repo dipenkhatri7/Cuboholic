@@ -15,7 +15,7 @@ function App(){
   return (
 
     <div className="container">
-      <Nav title="CUBOHOLI"/>  
+      <Nav title="CUBOHOLIC"/>  
       <Timer /> 
       <CubeIcon />
       {/* <CubeSelector /> 
